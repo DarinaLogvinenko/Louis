@@ -1,0 +1,236 @@
+@font-face {
+  font-family: 'AsapMedium';
+  src: url("../fonts/AsapMedium.eot");
+  src: url("../fonts/AsapMedium.eot") format("embedded-opentype"), url("../fonts/AsapMedium.woff2") format("woff2"), url("../fonts/AsapMedium.woff") format("woff"), url("../fonts/AsapMedium.ttf") format("truetype"), url("../fonts/AsapMedium.svg#AsapMedium") format("svg"); }
+@font-face {
+  font-family: 'AsapBold';
+  src: url("../fonts/AsapBold.eot");
+  src: url("../fonts/AsapBold.eot") format("embedded-opentype"), url("../fonts/AsapBold.woff2") format("woff2"), url("../fonts/AsapBold.woff") format("woff"), url("../fonts/AsapBold.ttf") format("truetype"), url("../fonts/AsapBold.svg#AsapBold") format("svg"); }
+@font-face {
+  font-family: 'AsapRegular';
+  src: url("../fonts/AsapRegular.eot");
+  src: url("../fonts/AsapRegular.eot") format("embedded-opentype"), url("../fonts/AsapRegular.woff2") format("woff2"), url("../fonts/AsapRegular.woff") format("woff"), url("../fonts/AsapRegular.ttf") format("truetype"), url("../fonts/AsapRegular.svg#AsapRegular") format("svg"); }
+* {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  -webkit-font-smoothing: antialiased; }
+
+header {
+  background-image: url(../images/bg-logo_01.png);
+  background-position: center top;
+  height: 750px; }
+  header img {
+    padding-top: 30px; }
+
+.navbar-default {
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  border: none; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none; }
+  .navbar-default .navbar-collapse .navbar-right li, .navbar-default .navbar-form .navbar-right li {
+    padding: 32px 0;
+    font-size: 15px;
+    text-transform: uppercase; }
+    .navbar-default .navbar-collapse .navbar-right li a, .navbar-default .navbar-form .navbar-right li a {
+      border-bottom: solid 2px transparent;
+      color: black; }
+      .navbar-default .navbar-collapse .navbar-right li a:hover, .navbar-default .navbar-form .navbar-right li a:hover {
+        border-bottom: solid 2px #878787; }
+
+.box {
+  margin-top: 170px;
+  line-height: 100px; }
+  .box h1 {
+    font-size: 90px;
+    color: #4d4d4d;
+    font-family: 'AsapMedium'; }
+  .box h3 {
+    font-size: 22px;
+    color: #9a9a9a;
+    font-family: 'AsapMedium'; }
+  .box .a2 {
+    padding: 20px 30px;
+    margin-top: 33px;
+    line-height: 60px;
+    font-size: 16px;
+    color: black;
+    font-family: 'AsapMedium';
+    text-transform: uppercase;
+    border: solid 1px black;
+    text-decoration: none; }
+  .box .a2:hover {
+    background-color: white;
+    box-shadow: 0 20px 40px 0 #BDBDBD;
+    border: solid 1px transparent;
+    transition: 0.3s; }
+
+section {
+  background-color: white; }
+
+.col-md-6 {
+  padding-top: 110px;
+  padding-bottom: 125px; }
+  .col-md-6 h2 {
+    font-size: 46px;
+    color: #717171;
+    font-family: 'AsapBold'; }
+    .col-md-6 h2 span {
+      border-top: solid 3px #717171; }
+  .col-md-6 p {
+    font-size: 16px;
+    color: #4d4d4d;
+    font-family: 'AsapRegular';
+    padding-right: 50px;
+    margin-bottom: 50px; }
+  .col-md-6 a {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    border: solid 1px black;
+    padding: 19px 47px;
+    margin-top: 50px; }
+    .col-md-6 a:hover {
+      background-color: white;
+      box-shadow: 0 20px 40px 0 #BDBDBD;
+      border: solid 1px transparent;
+      transition: 0.3s; }
+
+.gray {
+  background-color: #f6f6f6;
+  padding-top: 116px;
+  padding-bottom: 110px; }
+  .gray h2 {
+    font-size: 46px;
+    color: #6f6f6f;
+    font-family: 'AsapBold';
+    text-transform: uppercase;
+    margin-bottom: 70px; }
+    .gray h2 span {
+      border-top: solid 3px #6f6f6f; }
+  .gray .col-md-4 {
+    margin-bottom: 30px;
+    text-align: center; }
+    .gray .col-md-4 p {
+      font-size: 24px;
+      color: #4d4d4d;
+      font-family: 'AsapMedium'; }
+
+.white {
+  background-color: white;
+  padding-top: 115px;
+  padding-bottom: 120px; }
+  .white h2 {
+    font-size: 46px;
+    color: #6f6f6f;
+    font-family: 'AsapBold';
+    text-transform: uppercase; }
+    .white h2 span {
+      border-top: solid 3px #6f6f6f; }
+  .white img {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    width: 100%; }
+
+.icon {
+  width: 368px;
+  height: 317px;
+  background-color: lightgrey;
+  overflow: hidden;
+  display: inline-block;
+  position: relative; }
+  .icon img {
+    width: 100%; }
+
+.icon :after {
+  content: ">";
+  font-size: 61px;
+  color: black;
+  position: absolute;
+  top: 58px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  opacity: 0;
+  transition: 0.3s;
+  box-shadow: 0 0 50px 1px #CCCCCC; }
+
+.icon:hover:after {
+  opacity: 1; }
+
+.load a {
+  background-color: white;
+  box-shadow: 0 20px 40px 0 #BDBDBD;
+  border: solid 1px transparent;
+  padding: 20px 50px;
+  margin-top: 33px;
+  line-height: 40px;
+  font-size: 16px;
+  color: black;
+  font-family: 'AsapMedium';
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.fun {
+  background-color: #f6f6f6; }
+  .fun img {
+    width: 30%;
+    margin-top: 60px;
+    margin-bottom: 60px; }
+
+.white2 {
+  background-color: white;
+  height: 200px; }
+
+.testi {
+  margin-bottom: 500px; }
+
+.last {
+  background-image: url(../images/last_logo_02.png);
+  height: 788px;
+  background-position: center top;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 116px;
+  padding-bottom: 110px; }
+  .last h2 {
+    font-size: 46px;
+    color: white;
+    font-family: 'AsapBold';
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    padding-left: 50px; }
+    .last h2 span {
+      border-top: solid 3px white; }
+
+.last .container {
+  border-bottom: solid 2px whitesmoke; }
+.last input {
+  margin-left: 195px;
+  height: 60px;
+  border-radius: 0px; }
+.last textarea {
+  width: 750px;
+  margin: auto;
+  margin-top: 230px;
+  height: 200px;
+  border-radius: 0px; }
+.last button {
+  text-align: center;
+  margin-top: 30px;
+  height: 50px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-family: AsapMedium;
+  border-radius: 0px;
+  margin-left: 510px;
+  margin-bottom: 60px; }
+
+/*# sourceMappingURL=style.css.map */
